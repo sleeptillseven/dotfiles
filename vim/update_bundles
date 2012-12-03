@@ -40,7 +40,11 @@ git_bundles = [
   "https://github.com/tsaleh/vim-matchit.git",
   "https://github.com/tpope/vim-commentary.git",
   "https://github.com/pangloss/vim-javascript.git",
-  "https://github.com/postmodern/vim-yard.git"
+  "https://github.com/postmodern/vim-yard.git",
+  "https://github.com/vim-scripts/VimClojure.git",
+  "https://github.com/vim-scripts/Vim-JDE.git",
+  "https://github.com/derekwyatt/vim-scala.git",
+  "https://github.com/jnwhiteh/vim-golang.git"
 ]
 
 vim_org_scripts = [
