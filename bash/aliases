@@ -20,4 +20,3 @@ alias bw="echo updating brew && brew update && echo upgrading brew && brew upgra
 alias cdd="cd -"
 alias dir="ls -lsha"
 alias ..="cd .."
-
