@@ -1,0 +1,18 @@
+# Git aliases from https://git.wiki.kernel.org/index.php/Aliases#Getting_pretty_logs
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[user]
+	name = Christoph Jasinski
+	email = christoph.jasinski@googlemail.com
+[credential]
+	helper = osxkeychain
+[mergetool]
+	keepBackup = true
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	who = shortlog -s --
