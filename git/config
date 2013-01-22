@@ -12,6 +12,7 @@
 	st = status --short
   stf = status
 	ci = commit
+	ca = commit --amend
 	br = branch
 	co = checkout
 	df = diff
