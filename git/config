@@ -9,7 +9,8 @@
 [mergetool]
 	keepBackup = true
 [alias]
-	st = status
+	st = status --short
+  stf = status
 	ci = commit
 	br = branch
 	co = checkout

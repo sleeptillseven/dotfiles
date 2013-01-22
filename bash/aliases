@@ -1,7 +1,7 @@
 # A lot of goodness from peepcodes screencasts
 
 # Git
-alias gs="git status"
+alias gs="git st"
 alias gca="git commit -a -v"
 alias gl="git log"
 alias gfu="git fetch upstream"
