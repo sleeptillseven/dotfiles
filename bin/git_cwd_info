@@ -1,6 +1,6 @@
-# Courtesy of Ben Hoskings: https://github.com/benhoskings/dot-files
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
+# Courtesy of Ben Hoskings: https://github.com/benhoskings/dot-files
 
 # The methods that get called more than once are memoized.
 
