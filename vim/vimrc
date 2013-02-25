@@ -34,7 +34,7 @@ set helpheight=1000
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
 let g:Powerline_symbols = 'fancy' "set fancy font for Powerline
 set encoding=utf-8
-set fillchars+=stl:\ ,stlnc:\
+" set fillchars+=stl:\ ,stlnc:\
 
 let g:rails_menu=2
 let g:gist_clip_command = 'pbcopy'
@@ -67,6 +67,7 @@ set listchars=tab:>-,trail:-
 hi IncSearch term=reverse gui=underline guibg=Blue  guifg=Yellow
 hi    Search term=reverse gui=underline guibg=Black guifg=Yellow
 hi    Visual term=reverse cterm=reverse ctermbg=9 guibg=#555577 guifg=Black
+
 
 hi Pmenu      guifg=White guibg=Blue
 hi PmenuSel   gui=italic guifg=Yellow guibg=Blue
