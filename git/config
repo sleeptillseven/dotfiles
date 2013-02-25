@@ -1,6 +1,6 @@
 # Git aliases from https://git.wiki.kernel.org/index.php/Aliases#Getting_pretty_logs
 [difftool "Kaleidoscope"]
-	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [user]
 	name = Christoph Jasinski
 	email = christoph.jasinski@googlemail.com
@@ -8,6 +8,7 @@
 	helper = osxkeychain
 [mergetool]
 	keepBackup = true
+	prompt = false
 [alias]
 	st = status --short
   stf = status
@@ -23,3 +24,14 @@
   diff   = auto
   status = auto
   branch = auto
+[diff]
+	tool = Kaleidoscope
+[difftool]
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[merge]
+	tool = Kaleidoscope
+[core]
+	autocrlf = input
