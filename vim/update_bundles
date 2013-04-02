@@ -45,6 +45,7 @@ git_bundles = [
   "https://github.com/vim-scripts/Vim-JDE.git",
   "https://github.com/derekwyatt/vim-scala.git",
   "https://github.com/jnwhiteh/vim-golang.git",
+  "https://github.com/tpope/vim-rake",
   "https://github.com/airblade/vim-gitgutter.git"
 ]
 
