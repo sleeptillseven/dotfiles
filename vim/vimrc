@@ -4,6 +4,8 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+:let mapleader = "-"
+
 syntax on
 filetype plugin indent on
 
@@ -30,8 +32,14 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 set helpheight=1000
+set list
+set listchars=tab:▸\ ,eol:¬
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 16
 let g:Powerline_symbols = 'fancy' "set fancy font for Powerline
 set encoding=utf-8
 " set fillchars+=stl:\ ,stlnc:\
@@ -63,7 +71,6 @@ nnoremap gk k
 nnoremap gj j
 
 set hlsearch
-set listchars=tab:>-,trail:-
 hi IncSearch term=reverse gui=underline guibg=Blue  guifg=Yellow
 hi    Search term=reverse gui=underline guibg=Black guifg=Yellow
 hi    Visual term=reverse cterm=reverse ctermbg=9 guibg=#555577 guifg=Black
