@@ -34,6 +34,8 @@ set tabstop=2
 set helpheight=1000
 set list
 set listchars=tab:▸\ ,eol:¬
+set binary
+set expandtab
 
 "Invisible character colors
 highlight NonText guifg=#4a4a59
