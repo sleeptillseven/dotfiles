@@ -22,7 +22,6 @@ git_bundles = [
   "https://github.com/tomtom/tcomment_vim.git",
   "https://github.com/vim-ruby/vim-ruby.git",
   "https://github.com/duskhacker/sweet-rspec-vim.git",
-  "https://github.com/elixir-lang/vim-elixir.git",
   "https://github.com/kchmck/vim-coffee-script.git",
   "https://github.com/sunaku/vim-ruby-minitest.git",
   "https://github.com/tpope/vim-eunuch.git",
@@ -42,21 +41,17 @@ git_bundles = [
   "https://github.com/tpope/vim-commentary.git",
   "https://github.com/pangloss/vim-javascript.git",
   "https://github.com/postmodern/vim-yard.git",
-  "https://github.com/vim-scripts/VimClojure.git",
-  "https://github.com/vim-scripts/Vim-JDE.git",
-  "https://github.com/derekwyatt/vim-scala.git",
-  "https://github.com/jnwhiteh/vim-golang.git",
   "https://github.com/airblade/vim-gitgutter.git",
-  "https://github.com/guns/vim-clojure-static.git",
   "https://github.com/tpope/vim-fireplace.git",
-  "https://github.com/tpope/vim-classpath.git"
+  "https://github.com/tpope/vim-classpath.git",
+  "https://github.com/vim-scripts/bufexplorer.zip.git"
 ]
 
 vim_org_scripts = [
-  ["Vimerl",	      "3743",	"syntax"],
   ["RailsCast",	      "2175",	"color"],
   ["BufferExplorer",  "42",	"plugin"],
-  ["JSLint",	      "2729",	"plugin"]
+  ["JSLint",	      "2729",	"plugin"],
+  ["L9",	      "3252",	"plugin"]
 ]
 
 require 'fileutils'
