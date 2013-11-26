@@ -2,7 +2,7 @@
 
 git_bundles = [ 
   "https://github.com/astashov/vim-ruby-debugger.git",
-  "https://github.com/Lokaltog/vim-powerline.git",
+  "https://github.com/Lokaltog/powerline.git",
   "https://github.com/msanders/snipmate.vim.git",
   "https://github.com/scrooloose/nerdtree.git",
   "https://github.com/timcharper/textile.vim.git",
@@ -42,8 +42,9 @@ git_bundles = [
   "https://github.com/pangloss/vim-javascript.git",
   "https://github.com/postmodern/vim-yard.git",
   "https://github.com/airblade/vim-gitgutter.git",
-  "https://github.com/tpope/vim-fireplace.git",
   "https://github.com/tpope/vim-classpath.git",
+  "https://github.com/altercation/vim-colors-solarized.git",
+  "https://github.com/dotnetguyuk/vim-topfunkylight.git",
   "https://github.com/vim-scripts/bufexplorer.zip.git"
 ]
 
