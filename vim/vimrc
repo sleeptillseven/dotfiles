@@ -5,12 +5,18 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 :let mapleader = "-"
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 syntax on
 filetype plugin indent on
 
-let &t_Co=256		        " setting terminal to 256 colors
-colorscheme codeschool
+let &t_Co=256		        " setting terminal to 256
+set background=dark
+if has('gui_running')
+    colorscheme solarized
+else
+    colorscheme codeschool
+endif
 
 set nocompatible
 set autoread
@@ -41,10 +47,10 @@ set expandtab
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 16
+set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 let g:Powerline_symbols = 'fancy' "set fancy font for Powerline
 set encoding=utf-8
-" set fillchars+=stl:\ ,stlnc:\
+set fillchars+=stl:\ ,stlnc:\
 
 let g:rails_menu=2
 let g:gist_clip_command = 'pbcopy'
