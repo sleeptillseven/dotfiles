@@ -45,7 +45,9 @@ git_bundles = [
   "https://github.com/tpope/vim-classpath.git",
   "https://github.com/altercation/vim-colors-solarized.git",
   "https://github.com/dotnetguyuk/vim-topfunkylight.git",
-  "https://github.com/vim-scripts/bufexplorer.zip.git"
+  "https://github.com/vim-scripts/bufexplorer.zip.git",
+  "https://github.com/tpope/vim-rvm.git",
+  "https://github.com/ngmy/vim-rubocop"
 ]
 
 vim_org_scripts = [
