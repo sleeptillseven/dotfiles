@@ -11,11 +11,13 @@ syntax on
 filetype plugin indent on
 
 let &t_Co=256		        " setting terminal to 256
-set background=dark
+
 if has('gui_running')
+    set background=light
     colorscheme solarized
 else
-    colorscheme codeschool
+    set background=dark
+    colorscheme solarized "codeschool
 endif
 
 set nocompatible
@@ -40,9 +42,9 @@ set tabstop=2
 set helpheight=1000
 set list
 set listchars=tab:▸\ ,eol:¬
-set binary
+
 set expandtab
-highlight ColorColumn ctermbg=magenta "highlight 81 column
+highlight ColorColumn ctermbg=red "highlight 81 column
 set colorcolumn=81
 
 "Invisible character colors
@@ -60,6 +62,8 @@ let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
 set backspace=indent,eol,start
+
+runtime macros/matchit.vim " activate matchit plugin
 
 " Better surround
 let g:surround_40 = "(\r)"
