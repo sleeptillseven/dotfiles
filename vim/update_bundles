@@ -47,14 +47,16 @@ git_bundles = [
   "https://github.com/dotnetguyuk/vim-topfunkylight.git",
   "https://github.com/vim-scripts/bufexplorer.zip.git",
   "https://github.com/tpope/vim-rvm.git",
-  "https://github.com/ngmy/vim-rubocop"
+  "https://github.com/ngmy/vim-rubocop",
+  "https://github.com/tpope/vim-unimpaired",
+  "https://github.com/nelstrom/vim-textobj-rubyblock",
+  "https://github.com/kana/vim-textobj-user"
 ]
 
 vim_org_scripts = [
   ["RailsCast",	      "2175",	"color"],
   ["BufferExplorer",  "42",	"plugin"],
-  ["JSLint",	      "2729",	"plugin"],
-  ["L9",	      "3252",	"plugin"]
+  ["JSLint",	      "2729",	"plugin"]
 ]
 
 require 'fileutils'
