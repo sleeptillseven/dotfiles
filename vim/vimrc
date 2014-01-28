@@ -20,6 +20,9 @@ else
     colorscheme solarized "codeschool
 endif
 
+" set format git messages
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 set nocompatible
 set autoread
 
