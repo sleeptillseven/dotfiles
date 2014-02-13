@@ -1,0 +1,228 @@
+*** Applications installed through App store or manually ***
+************************************************************
+1Password 4.app
+About Downloads.lpdf
+Adobe Photoshop Elements 9 Editor.app
+Adobe Revel.app
+Airmail.app
+Alfred 2.app
+Analog.app
+App Store.app
+Automator.app
+Bodega.app
+Brackets.app
+Caffeine.app
+Calculator.app
+Calendar.app
+Chess.app
+Citrix Receiver.app
+CleanMyDrive.app
+CleanMyMac 2.app
+CleanWriterPro.app
+Clear.app
+Color Picker Pro.app
+ColorStrokes.app
+Composure.app
+Contacts.app
+DVD Player.app
+DaisyDisk.app
+Dashboard.app
+Deskscribble.app
+Dictionary.app
+Diptic.app
+Disk Diag.app
+DiskFailure.app
+Divvy.app
+DoodleDesk.app
+Dropbox.app
+Evernote.app
+FX Photo Studio.app
+FaceTime.app
+Favs.app
+FileZilla.app
+Final Cut Pro.app
+Firefox.app
+Flux.app
+Focus.app
+Font Book.app
+Fotor.app
+Found.app
+Game Center.app
+GarageBand.app
+Gemini.app
+GoToMeeting (1259).app
+Google Chrome.app
+Google Drive.app
+Grabbit.app
+Growl.app
+IDLE.app
+Image Capture.app
+IntelliJ IDEA 13 CE.app
+KOA Finder.app
+Kaleidoscope.app
+Keynote.app
+Kies.app
+Kindle.app
+Launchpad.app
+LibreOffice.app
+LiveReload.app
+Liya.app
+MP4Joiner.app
+MacVim.app
+MagicanPaster.app
+Mail Pilot.app
+Mail.app
+MailTab Pro for Gmail.app
+Maps.app
+Marked.app
+Memory Clean.app
+Messages.app
+Microsoft Lync.app
+Microsoft Remote Desktop.app
+MindNode Lite.app
+Mission Control.app
+MoneyControl.app
+Motion FX.app
+MySQLWorkbench.app
+Notes.app
+Numbers.app
+Obtract.app
+OmniGraffle 5.app
+Pages.app
+PeepOpen.app
+Photo Booth.app
+Pixelmator.app
+Planit.app
+Pocket.app
+Pomodoro.app
+Postgres93.app
+Preview.app
+Private Eye.app
+Python Launcher.app
+QuickTime Player.app
+Reminders.app
+Remove Sophos Anti-Virus.app
+RubyMine.app
+Safari.app
+SeaSky Video Converter.app
+Sequel Pro.app
+Simplenote.app
+SketchBookExpress.app
+SketchMee.app
+Skitch.app
+Sky Gamblers - Storm Raiders.app
+Snapheal.app
+SoapUI-4.6.4.app
+Sophos Anti-Virus.app
+Soundflower
+SourceTree.app
+StatsBar.app
+Stickies.app
+Sublime Text 2.app
+SwordSoft Layout.app
+System Preferences.app
+SystemMonitor.app
+TeamViewer.app
+TextEdit.app
+TextMate.app
+TextWrangler.app
+The Unarchiver.app
+Time Machine.app
+Tower.app
+Twitter.app
+Utilities
+VLC.app
+VirtualBox.app
+Writer.app
+Wunderlist.app
+Xcode.app
+eclipse
+iBooks Author.app
+iBooks.app
+iFunia AudioConverter.app
+iGetter.app
+iPhoto.app
+iShowU HD.app
+iTerm.app
+iTunes.app
+tiptoi Manager.app
+
+*** Applications installed through brew ***
+*******************************************
+akka
+ant
+apple-gcc42
+autoconf
+automake
+binutils
+cloog-ppl015
+cmake
+cscope
+ctags
+curl
+erlang
+faac
+ffmpeg
+fontconfig
+fontforge
+freetype
+gcc46
+gdbm
+gettext
+git
+git-extras
+git-flow
+gmp
+gmp4
+gnutls
+jmeter
+jpeg
+lame
+leiningen
+libevent
+libgpg-error
+libksba
+libmpc08
+libpng
+libtasn1
+libtiff
+libtool
+libyaml
+macvim
+maven
+mercurial
+mpfr2
+mysql
+neo4j
+netcat
+nettle
+node
+openssl
+p11-kit
+pcre
+pkg-config
+play
+ppl011
+pwgen
+python
+readline
+rust
+sbt
+scala
+sqlite
+texi2html
+tomcat
+tree
+typesafe-activator
+unixodbc
+vcprompt
+vim
+wget
+wrk
+x264
+xvid
+xz
+yasm
+zsh
+zsh-completions
+zsh-syntax-highlighting
