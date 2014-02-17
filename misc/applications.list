@@ -88,6 +88,7 @@ Notes.app
 Numbers.app
 Obtract.app
 OmniGraffle 5.app
+PG Commander.app
 Pages.app
 PeepOpen.app
 Photo Booth.app
@@ -198,10 +199,13 @@ netcat
 nettle
 node
 openssl
+ossp-uuid
 p11-kit
 pcre
+phantomjs
 pkg-config
 play
+postgresql
 ppl011
 pwgen
 python
