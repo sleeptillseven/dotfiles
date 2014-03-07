@@ -67,6 +67,7 @@ Launchpad.app
 LibreOffice.app
 LiveReload.app
 Liya.app
+MOOS.app
 MP4Joiner.app
 MacVim.app
 MagicanPaster.app
@@ -87,6 +88,7 @@ MySQLWorkbench.app
 Notes.app
 Numbers.app
 Obtract.app
+Octagon.app
 OmniGraffle 5.app
 PG Commander.app
 Pages.app
@@ -104,6 +106,7 @@ QuickTime Player.app
 Reminders.app
 Remove Sophos Anti-Virus.app
 RubyMine.app
+SQLite Professional.app
 Safari.app
 SeaSky Video Converter.app
 Sequel Pro.app
@@ -119,6 +122,7 @@ Soundflower
 SourceTree.app
 StatsBar.app
 Stickies.app
+Stomp.app
 Sublime Text 2.app
 SwordSoft Layout.app
 System Preferences.app
@@ -137,7 +141,7 @@ VirtualBox.app
 Writer.app
 Wunderlist.app
 Xcode.app
-eclipse
+adt-bundle-mac-x86_64-20131030
 iBooks Author.app
 iBooks.app
 iFunia AudioConverter.app
@@ -209,6 +213,7 @@ postgresql
 ppl011
 pwgen
 python
+rabbitmq
 readline
 rust
 sbt
