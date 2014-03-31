@@ -50,14 +50,17 @@ Found.app
 Game Center.app
 GarageBand.app
 Gemini.app
-GoToMeeting (1259).app
+GitHub.app
+GoToMeeting (1350).app
 Google Chrome.app
 Google Drive.app
 Grabbit.app
 Growl.app
+HDCleaner.app
 IDLE.app
 Image Capture.app
 IntelliJ IDEA 13 CE.app
+Julia-0.2.1.app
 KOA Finder.app
 Kaleidoscope.app
 Keynote.app
@@ -103,8 +106,11 @@ Preview.app
 Private Eye.app
 Python Launcher.app
 QuickTime Player.app
+Quicksilver.app
+Red Crucible 2.app
 Reminders.app
 Remove Sophos Anti-Virus.app
+Road Trip Planner.app
 RubyMine.app
 SQLite Professional.app
 Safari.app
@@ -135,13 +141,15 @@ The Unarchiver.app
 Time Machine.app
 Tower.app
 Twitter.app
+Ultimate Public Campground Project.app
 Utilities
 VLC.app
-VirtualBox.app
+WeChat.app
 Writer.app
 Wunderlist.app
 Xcode.app
 adt-bundle-mac-x86_64-20131030
+eclipse
 iBooks Author.app
 iBooks.app
 iFunia AudioConverter.app
@@ -165,6 +173,7 @@ cmake
 cscope
 ctags
 curl
+elixir
 erlang
 faac
 ffmpeg
@@ -180,6 +189,7 @@ git-flow
 gmp
 gmp4
 gnutls
+go
 jmeter
 jpeg
 lame
