@@ -1,19 +1,28 @@
 *** Applications installed through App store or manually ***
 ************************************************************
 1Password 4.app
+2800 Icons for Developers.app
+AU Lab.app
 About Downloads.lpdf
+Accessibility Inspector.app
+Accessibility Verifier.app
 Adobe Photoshop Elements 9 Editor.app
 Adobe Revel.app
 Airmail.app
 Alfred 2.app
 Analog.app
+Android File Transfer.app
 App Store.app
+Atom.app
 Automator.app
+Auxiliary Tools
+Bluetooth Explorer.app
 Bodega.app
 Brackets.app
 Caffeine.app
 Calculator.app
 Calendar.app
+Carbon Copy Cloner.app
 Chess.app
 Citrix Receiver.app
 CleanMyDrive.app
@@ -22,16 +31,19 @@ CleanWriterPro.app
 Clear.app
 Color Picker Pro.app
 ColorStrokes.app
+Command-C.app
 Composure.app
 Contacts.app
 DVD Player.app
 DaisyDisk.app
+Dash.app
 Dashboard.app
 Deskscribble.app
 Dictionary.app
 Diptic.app
 Disk Diag.app
 DiskFailure.app
+DiskMaker X.app
 Divvy.app
 DoodleDesk.app
 Dropbox.app
@@ -39,7 +51,6 @@ Evernote.app
 FX Photo Studio.app
 FaceTime.app
 Favs.app
-FileZilla.app
 Final Cut Pro.app
 Firefox.app
 Flux.app
@@ -47,20 +58,24 @@ Focus.app
 Font Book.app
 Fotor.app
 Found.app
+Free DVD Ripper.app
 Game Center.app
 GarageBand.app
 Gemini.app
 GitHub.app
-GoToMeeting (1350).app
+GoToMeeting (1440).app
 Google Chrome.app
 Google Drive.app
 Grabbit.app
+Graphics Tools
 Growl.app
+HALLab.app
 HDCleaner.app
+HandBrake.app
 IDLE.app
+IORegistryExplorer.app
 Image Capture.app
 IntelliJ IDEA 13 CE.app
-Julia-0.2.1.app
 KOA Finder.app
 Kaleidoscope.app
 Keynote.app
@@ -74,40 +89,46 @@ MOOS.app
 MP4Joiner.app
 MacVim.app
 MagicanPaster.app
-Mail Pilot.app
 Mail.app
 MailTab Pro for Gmail.app
+MakeMKV.app
 Maps.app
 Marked.app
 Memory Clean.app
 Messages.app
 Microsoft Lync.app
+Microsoft Office 2011
 Microsoft Remote Desktop.app
+Microsoft Silverlight
 MindNode Lite.app
 Mission Control.app
 MoneyControl.app
 Motion FX.app
 MySQLWorkbench.app
+Network Link Conditioner.prefPane
 Notes.app
 Numbers.app
 Obtract.app
 Octagon.app
+OmniFocus.app
 OmniGraffle 5.app
 PG Commander.app
+PacketLogger.app
 Pages.app
 PeepOpen.app
 Photo Booth.app
+Pic togo for Flickr.app
 Pixelmator.app
 Planit.app
 Pocket.app
 Pomodoro.app
 Postgres93.app
+Prepo.app
 Preview.app
 Private Eye.app
 Python Launcher.app
 QuickTime Player.app
 Quicksilver.app
-Red Crucible 2.app
 Reminders.app
 Remove Sophos Anti-Virus.app
 Road Trip Planner.app
@@ -120,16 +141,18 @@ Simplenote.app
 SketchBookExpress.app
 SketchMee.app
 Skitch.app
-Sky Gamblers - Storm Raiders.app
+Skype.app
 Snapheal.app
 SoapUI-4.6.4.app
 Sophos Anti-Virus.app
 Soundflower
 SourceTree.app
+Stache.app
 StatsBar.app
 Stickies.app
 Stomp.app
 Sublime Text 2.app
+SuperDuper!.app
 SwordSoft Layout.app
 System Preferences.app
 SystemMonitor.app
@@ -142,8 +165,10 @@ Time Machine.app
 Tower.app
 Twitter.app
 Ultimate Public Campground Project.app
+Uppr.app
 Utilities
 VLC.app
+VirtualBox.app
 WeChat.app
 Writer.app
 Wunderlist.app
@@ -173,12 +198,13 @@ cmake
 cscope
 ctags
 curl
-elixir
+datomic
 erlang
 faac
 ffmpeg
 fontconfig
 fontforge
+fop
 freetype
 gcc46
 gdbm
@@ -190,6 +216,7 @@ gmp
 gmp4
 gnutls
 go
+imagemagick
 jmeter
 jpeg
 lame
@@ -202,6 +229,8 @@ libpng
 libtasn1
 libtiff
 libtool
+libxml2
+libxslt
 libyaml
 macvim
 maven
@@ -230,6 +259,7 @@ sbt
 scala
 sqlite
 texi2html
+tmux
 tomcat
 tree
 typesafe-activator
@@ -238,6 +268,7 @@ vcprompt
 vim
 wget
 wrk
+wxmac
 x264
 xvid
 xz
