@@ -11,7 +11,6 @@ Adobe Revel.app
 Airmail.app
 Alfred 2.app
 Analog.app
-Android File Transfer.app
 App Store.app
 Atom.app
 Automator.app
@@ -51,6 +50,7 @@ Evernote.app
 FX Photo Studio.app
 FaceTime.app
 Favs.app
+FileZilla.app
 Final Cut Pro.app
 Firefox.app
 Flux.app
@@ -75,13 +75,13 @@ HandBrake.app
 IDLE.app
 IORegistryExplorer.app
 Image Capture.app
-IntelliJ IDEA 13 CE.app
 KOA Finder.app
 Kaleidoscope.app
 Keynote.app
 Kies.app
 Kindle.app
 Launchpad.app
+Leaf.app
 LibreOffice.app
 LiveReload.app
 Liya.app
@@ -105,6 +105,7 @@ Mission Control.app
 MoneyControl.app
 Motion FX.app
 MySQLWorkbench.app
+NetNewsWire.app
 Network Link Conditioner.prefPane
 Notes.app
 Numbers.app
@@ -112,7 +113,7 @@ Obtract.app
 Octagon.app
 OmniFocus.app
 OmniGraffle 5.app
-PG Commander.app
+OneDrive.app
 PacketLogger.app
 Pages.app
 PeepOpen.app
@@ -122,10 +123,10 @@ Pixelmator.app
 Planit.app
 Pocket.app
 Pomodoro.app
-Postgres93.app
 Prepo.app
 Preview.app
 Private Eye.app
+Prototypr.app
 Python Launcher.app
 QuickTime Player.app
 Quicksilver.app
@@ -143,7 +144,7 @@ SketchMee.app
 Skitch.app
 Skype.app
 Snapheal.app
-SoapUI-4.6.4.app
+SoapUI-5.0.0.app
 Sophos Anti-Virus.app
 Soundflower
 SourceTree.app
@@ -152,6 +153,7 @@ StatsBar.app
 Stickies.app
 Stomp.app
 Sublime Text 2.app
+Sunrise.app
 SuperDuper!.app
 SwordSoft Layout.app
 System Preferences.app
@@ -163,7 +165,6 @@ TextWrangler.app
 The Unarchiver.app
 Time Machine.app
 Tower.app
-Twitter.app
 Ultimate Public Campground Project.app
 Uppr.app
 Utilities
@@ -174,7 +175,6 @@ Writer.app
 Wunderlist.app
 Xcode.app
 adt-bundle-mac-x86_64-20131030
-eclipse
 iBooks Author.app
 iBooks.app
 iFunia AudioConverter.app
@@ -223,6 +223,7 @@ lame
 leiningen
 libevent
 libgpg-error
+libiconv
 libksba
 libmpc08
 libpng
@@ -237,6 +238,7 @@ maven
 mercurial
 mpfr2
 mysql
+ncurses
 neo4j
 netcat
 nettle
@@ -254,6 +256,7 @@ pwgen
 python
 rabbitmq
 readline
+rtmpdump
 rust
 sbt
 scala
@@ -273,6 +276,7 @@ x264
 xvid
 xz
 yasm
+youtube-dl
 zsh
 zsh-completions
 zsh-syntax-highlighting
