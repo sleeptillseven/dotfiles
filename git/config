@@ -24,6 +24,7 @@
 	who = shortlog -s --
   ps = push
 	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
+  undo = reset HEAD~1 --mixed
 [color]
   diff   = auto
   status = auto
