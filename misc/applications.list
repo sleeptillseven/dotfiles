@@ -2,143 +2,102 @@
 ************************************************************
 1Password 4.app
 2800 Icons for Developers.app
-AU Lab.app
 About Downloads.lpdf
-Accessibility Inspector.app
-Accessibility Verifier.app
-Adobe Photoshop Elements 9 Editor.app
-Adobe Revel.app
-Airmail.app
+Airmail 2.app
 Alfred 2.app
 Analog.app
 App Store.app
 Atom.app
 Automator.app
-Auxiliary Tools
-Bluetooth Explorer.app
-Bodega.app
+Battery Diag.app
 Brackets.app
 Caffeine.app
 Calculator.app
 Calendar.app
-Carbon Copy Cloner.app
 Chess.app
 Citrix Receiver.app
 CleanMyDrive.app
 CleanMyMac 2.app
 CleanWriterPro.app
-Clear.app
-Color Picker Pro.app
 ColorStrokes.app
-Command-C.app
 Composure.app
 Contacts.app
 DVD Player.app
 DaisyDisk.app
 Dash.app
 Dashboard.app
-Deskscribble.app
 Dictionary.app
 Diptic.app
 Disk Diag.app
-DiskFailure.app
-DiskMaker X.app
 Divvy.app
-DoodleDesk.app
 Dropbox.app
 Evernote.app
 FX Photo Studio.app
 FaceTime.app
-Favs.app
 FileZilla.app
 Final Cut Pro.app
 Firefox.app
 Flux.app
 Focus.app
 Font Book.app
+Fontforge.app
 Fotor.app
-Found.app
-Free DVD Ripper.app
 Game Center.app
-GarageBand.app
 Gemini.app
 GitHub.app
-GoToMeeting (1440).app
+GoToMeeting (1468).app
 Google Chrome.app
 Google Drive.app
-Grabbit.app
-Graphics Tools
 Growl.app
-HALLab.app
-HDCleaner.app
 HandBrake.app
+Headquarters.app
 IDLE.app
 IORegistryExplorer.app
+Icon Factory.app
 Image Capture.app
-KOA Finder.app
+IntelliJ IDEA 14 CE EAP.app
+Jotta.app
 Kaleidoscope.app
-Keynote.app
-Kies.app
 Kindle.app
 Launchpad.app
-Leaf.app
-LibreOffice.app
-LiveReload.app
-Liya.app
-MOOS.app
 MP4Joiner.app
 MacVim.app
-MagicanPaster.app
 Mail.app
 MailTab Pro for Gmail.app
-MakeMKV.app
 Maps.app
 Marked.app
 Memory Clean.app
+MenuTab for Trello.app
 Messages.app
 Microsoft Lync.app
 Microsoft Office 2011
 Microsoft Remote Desktop.app
-Microsoft Silverlight
-MindNode Lite.app
 Mission Control.app
-MoneyControl.app
-Motion FX.app
 MySQLWorkbench.app
 NetNewsWire.app
 Network Link Conditioner.prefPane
 Notes.app
 Numbers.app
-Obtract.app
-Octagon.app
 OmniFocus.app
 OmniGraffle 5.app
 OneDrive.app
-PacketLogger.app
 Pages.app
 PeepOpen.app
 Photo Booth.app
 Pic togo for Flickr.app
 Pixelmator.app
-Planit.app
-Pocket.app
+Pixlr.app
 Pomodoro.app
-Prepo.app
 Preview.app
 Private Eye.app
 Prototypr.app
 Python Launcher.app
 QuickTime Player.app
-Quicksilver.app
 Reminders.app
 Remove Sophos Anti-Virus.app
-Road Trip Planner.app
-RubyMine.app
-SQLite Professional.app
 Safari.app
 SeaSky Video Converter.app
 Sequel Pro.app
-Simplenote.app
 SketchBookExpress.app
 SketchMee.app
 Skitch.app
@@ -147,14 +106,11 @@ Snapheal.app
 SoapUI-5.0.0.app
 Sophos Anti-Virus.app
 Soundflower
-SourceTree.app
 Stache.app
-StatsBar.app
 Stickies.app
 Stomp.app
 Sublime Text 2.app
 Sunrise.app
-SuperDuper!.app
 SwordSoft Layout.app
 System Preferences.app
 SystemMonitor.app
@@ -162,23 +118,20 @@ TeamViewer.app
 TextEdit.app
 TextMate.app
 TextWrangler.app
-The Unarchiver.app
 Time Machine.app
 Tower.app
-Ultimate Public Campground Project.app
 Uppr.app
 Utilities
 VLC.app
-VirtualBox.app
-WeChat.app
+Webcam Settings.app
+WiFi Explorer.app
 Writer.app
-Wunderlist.app
 Xcode.app
-adt-bundle-mac-x86_64-20131030
-iBooks Author.app
+eclipse
 iBooks.app
 iFunia AudioConverter.app
 iGetter.app
+iMovie.app
 iPhoto.app
 iShowU HD.app
 iTerm.app
@@ -187,12 +140,14 @@ tiptoi Manager.app
 
 *** Applications installed through brew ***
 *******************************************
-akka
+android-sdk
 ant
 apple-gcc42
+apr
 autoconf
 automake
 binutils
+cairo
 cloog-ppl015
 cmake
 cscope
@@ -207,21 +162,28 @@ fontforge
 fop
 freetype
 gcc46
+gd
 gdbm
 gettext
 git
 git-extras
 git-flow
+glib
 gmp
 gmp4
+gnuplot
 gnutls
 go
+gobject-introspection
+harfbuzz
+icu4c
 imagemagick
 jmeter
 jpeg
 lame
 leiningen
 libevent
+libffi
 libgpg-error
 libiconv
 libksba
@@ -239,15 +201,17 @@ mercurial
 mpfr2
 mysql
 ncurses
-neo4j
 netcat
 nettle
+nmap
 node
 openssl
 ossp-uuid
 p11-kit
+pango
 pcre
 phantomjs
+pixman
 pkg-config
 play
 postgresql
@@ -257,15 +221,14 @@ python
 rabbitmq
 readline
 rtmpdump
-rust
-sbt
-scala
 sqlite
+ssh-copy-id
+tcl-tk
 texi2html
 tmux
 tomcat
 tree
-typesafe-activator
+tsung
 unixodbc
 vcprompt
 vim
