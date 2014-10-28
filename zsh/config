@@ -14,6 +14,8 @@ else
   export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin#PATH"
 fi
 
+export PATH=/Library/RubyMotion/bin/motion:$PATH
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
