@@ -2,7 +2,6 @@
 ************************************************************
 1Password 4.app
 2800 Icons for Developers.app
-About Downloads.lpdf
 Airmail 2.app
 Alfred 2.app
 Analog.app
@@ -55,7 +54,6 @@ IDLE.app
 IORegistryExplorer.app
 Icon Factory.app
 Image Capture.app
-IntelliJ IDEA 14 CE EAP.app
 Jotta.app
 Kaleidoscope.app
 Kindle.app
@@ -73,7 +71,6 @@ Microsoft Lync.app
 Microsoft Office 2011
 Microsoft Remote Desktop.app
 Mission Control.app
-MySQLWorkbench.app
 NetNewsWire.app
 Network Link Conditioner.prefPane
 Notes.app
@@ -88,6 +85,7 @@ Pic togo for Flickr.app
 Pixelmator.app
 Pixlr.app
 Pomodoro.app
+Postgres.app
 Preview.app
 Private Eye.app
 Prototypr.app
@@ -131,7 +129,6 @@ eclipse
 iBooks.app
 iFunia AudioConverter.app
 iGetter.app
-iMovie.app
 iPhoto.app
 iShowU HD.app
 iTerm.app
@@ -140,7 +137,6 @@ tiptoi Manager.app
 
 *** Applications installed through brew ***
 *******************************************
-android-sdk
 ant
 apple-gcc42
 apr
@@ -208,6 +204,7 @@ node
 openssl
 ossp-uuid
 p11-kit
+p7zip
 pango
 pcre
 phantomjs
