@@ -149,7 +149,6 @@ cmake
 cscope
 ctags
 curl
-datomic
 erlang
 faac
 ffmpeg
