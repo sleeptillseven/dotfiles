@@ -149,6 +149,7 @@ cmake
 cscope
 ctags
 curl
+dirmngr
 erlang
 faac
 ffmpeg
@@ -166,10 +167,12 @@ git-flow
 glib
 gmp
 gmp4
+gnupg2
 gnuplot
 gnutls
 go
 gobject-introspection
+gpg-agent
 harfbuzz
 icu4c
 imagemagick
@@ -177,8 +180,10 @@ jmeter
 jpeg
 lame
 leiningen
+libassuan
 libevent
 libffi
+libgcrypt
 libgpg-error
 libiconv
 libksba
@@ -187,6 +192,8 @@ libpng
 libtasn1
 libtiff
 libtool
+libusb
+libusb-compat
 libxml2
 libxslt
 libyaml
@@ -207,11 +214,13 @@ p7zip
 pango
 pcre
 phantomjs
+pinentry
 pixman
 pkg-config
 play
 postgresql
 ppl011
+pth
 pwgen
 python
 rabbitmq
