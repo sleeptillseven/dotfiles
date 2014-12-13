@@ -28,6 +28,7 @@ Dashboard.app
 Dictionary.app
 Diptic.app
 Disk Diag.app
+DiskMaker X 4b4.app
 Divvy.app
 Dropbox.app
 Evernote.app
@@ -39,7 +40,7 @@ Firefox.app
 Flux.app
 Focus.app
 Font Book.app
-Fontforge.app
+FontForge.app
 Fotor.app
 Game Center.app
 Gemini.app
@@ -71,6 +72,7 @@ Microsoft Lync.app
 Microsoft Office 2011
 Microsoft Remote Desktop.app
 Mission Control.app
+MySQLWorkbench.app
 NetNewsWire.app
 Network Link Conditioner.prefPane
 Notes.app
@@ -105,6 +107,7 @@ Snapheal.app
 SoapUI-5.0.0.app
 Sophos Anti-Virus.app
 Soundflower
+SourceTree.app
 Stache.app
 Stickies.app
 Stomp.app
@@ -119,6 +122,7 @@ TextMate.app
 TextWrangler.app
 Things.app
 Time Machine.app
+Todoist.app
 Tower.app
 Uppr.app
 Utilities
@@ -151,6 +155,7 @@ cmake
 cscope
 ctags
 curl
+czmq
 dirmngr
 erlang
 faac
@@ -191,11 +196,13 @@ libiconv
 libksba
 libmpc08
 libpng
+libsodium
 libtasn1
 libtiff
 libtool
 libusb
 libusb-compat
+libvo-aacenc
 libxml2
 libxslt
 libyaml
@@ -247,6 +254,7 @@ xvid
 xz
 yasm
 youtube-dl
+zeromq
 zsh
 zsh-completions
 zsh-syntax-highlighting
