@@ -1,57 +1,58 @@
 # Git aliases from https://git.wiki.kernel.org/index.php/Aliases#Getting_pretty_logs
 [difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [user]
-	name = Christoph Jasinski
-	email = christoph.jasinski@googlemail.com
+    name = Christoph Jasinski
+    email = christoph.jasinski@googlemail.com
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 [mergetool]
-	keepBackup = true
-	prompt = false
+    keepBackup = true
+    prompt = false
 [alias]
-	st = status --short
-  stf = status
-	ci = commit
-	ca = commit --amend
-	br = branch
-	co = checkout
-	df = diff
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --color
-  lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
-  lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
-  lgt = log --all --simplify-by-decoration --stat
-	who = shortlog -s --
-  ps = push
-	today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
-  undo = reset HEAD~1 --mixed
+    st = status --short
+    stf = status
+    ci = commit
+    ca = commit --amend
+    br = branch
+    co = checkout
+    df = diff
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --color
+    lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+    lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
+    lgt = log --all --simplify-by-decoration --stat
+    who = shortlog -s --
+    ps = push
+    today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
+    undo = reset HEAD~1 --mixed
+    diverges = !sh -c 'git rev-list --boundary $1...$2 | grep ^- | cut -c2-'
 [color]
   diff   = auto
   status = auto
   branch = auto
 [diff]
-	tool = Kaleidoscope
+    tool = Kaleidoscope
 [difftool]
-	prompt = false
+    prompt = false
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
+    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+    trustExitCode = true
 [merge]
-	tool = Kaleidoscope
+    tool = Kaleidoscope
 [core]
-	autocrlf = input
-	excludesfile = /Users/chris/.gitignore_global
+    autocrlf = input
+    excludesfile = /Users/chris/.gitignore_global
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
 [push]
-	default = simple
+    default = simple
 [filter "media"]
-	clean = git media clean %f
-	smudge = git media smudge %f
-	required = true
+    clean = git media clean %f
+    smudge = git media smudge %f
+    required = true
 [http]
 [https]
