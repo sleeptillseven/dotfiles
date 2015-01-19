@@ -17,7 +17,7 @@ if has('gui_running')
     set background=light
     colorscheme solarized
 else
-    set background=dark
+    set background=light
     colorscheme solarized "codeschool
 endif
 
@@ -27,6 +27,8 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 set nocompatible
 set autoread
 
+set numberwidth=4
+set relativenumber 
 set number   		        " set line numbers
 set ruler               	" show the cursor position all the time
 set hidden 		          	" edit several file
