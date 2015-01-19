@@ -82,6 +82,13 @@ let g:SuperTabLongestEnhanced = 1
 let g:SuperTabLongestHighlight = 1
 let g:SuperTabCrClosePreview = 1
 
+" Setup RSpec
+let g:rspec_runner = "os_x_iterm"
+let g:rspec_command = "Dispatch rspec {spec}"
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 " Make j/k move to next visual line instead of physical line
 " http://yubinkim.com/?p=6
