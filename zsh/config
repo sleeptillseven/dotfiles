@@ -50,8 +50,3 @@ zle -N self-insert-backslash
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-#Ruby VM settings for faster tests
-export RUBY_HEAP_MIN_SLOTS=2000000
-export RUBY_HEAP_FREE_MIN=20000
-export RUBY_GC_MALLOC_LIMIT=100000000
