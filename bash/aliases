@@ -6,11 +6,16 @@ alias gca="git commit -a -v"
 alias gl="git log"
 alias gfu="git fetch upstream"
 alias gpum="git push -u origin master"
+alias c="clear"
+
+# Ruby
 alias migrate='bundle exec rake db:migrate && bundle exec rake db:test:prepare'
 alias run_tests='bundle exec rake cucumber:ok && bundle exec rake spec'
-alias cls="clear"
+alias ber="bundle exec rspec"
+alias beg="bundle exec guard"
 
 # Processes
+alias my_processes="ps aux | grep $USER"
 alias tu="top -o cpu"
 alias tm="top -o vsize"
 alias bw="echo updating brew && brew update && echo upgrading brew && brew upgrade"
