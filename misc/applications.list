@@ -1,172 +1,181 @@
 *** Applications installed through App store or manually ***
 ************************************************************
-1Password 4.app
-2800 Icons for Developers.app
+1Password 5.app
+ALZip.app
 Airmail 2.app
 Alfred 2.app
 Analog.app
 App Store.app
 Atom.app
+Audacity
 Automator.app
-Battery Diag.app
-Brackets.app
-Caffeine.app
+Balsamiq Mockups 3.app
+Balsamiq Mockups.app
+Battery Monitor.app
+Burn.app
 Calculator.app
 Calendar.app
 Chess.app
-Citrix Receiver.app
-CleanMyDrive.app
 CleanMyMac 2.app
-CleanWriterPro.app
+CodeBox.app
 ColorStrokes.app
-Composure.app
 Contacts.app
+Convertos.app
+Countdowns.app
 DVD Player.app
 DaisyDisk.app
-Dash.app
 Dashboard.app
 Dictionary.app
 Diptic.app
-Disk Diag.app
-DiskMaker X 4b4.app
 Divvy.app
+DrCleaner.app
 Dropbox.app
+Encrypto.app
 Evernote.app
-FX Photo Studio.app
 FaceTime.app
-FileZilla.app
-Final Cut Pro.app
 Firefox.app
 Flux.app
+Focus 2.app
 Focus.app
 Font Book.app
-FontForge.app
-Fotor.app
+GNS3.app
+GPG Keychain.app
 Game Center.app
 Gemini.app
+Gestimer.app
 GitHub.app
-GoToMeeting (1468).app
+Go for Gmail.app
+GoPro
+GoPro Studio.app
 Google Chrome.app
-Google Drive.app
 Growl.app
-HandBrake.app
-Headquarters.app
+Hemingway.app
+HomeBudgetLite.app
 IDLE.app
-IORegistryExplorer.app
-Icon Factory.app
+IPVanish VPN.app
 Image Capture.app
 Jotta.app
 Kaleidoscope.app
+Kaspersky Anti-Virus For Mac.app
+Keynote.app
 Kindle.app
 Launchpad.app
 MP4Joiner.app
 MacVim.app
 Mail.app
-MailTab Pro for Gmail.app
 Maps.app
 Marked.app
 Memory Clean.app
-MenuTab for Trello.app
 Messages.app
+Microsoft Excel.app
 Microsoft Lync.app
-Microsoft Office 2011
-Microsoft Remote Desktop.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Word.app
+MindNode.app
 Mission Control.app
-MySQLWorkbench.app
-NetNewsWire.app
-Network Link Conditioner.prefPane
+Money Pro.app
+MoneyControl.app
+Noiseless.app
+Noizio.app
 Notes.app
 Numbers.app
 OmniFocus.app
 OmniGraffle 5.app
-OneDrive.app
 Pages.app
 PeepOpen.app
+Pencil.app
 Photo Booth.app
-Pic togo for Flickr.app
+Photos.app
 Pixelmator.app
-Pixlr.app
+Pixie.app
+Planit.app
+Pomodoro Time.app
 Pomodoro.app
-Postgres.app
+Posterist.app
 Preview.app
-Private Eye.app
 Prototypr.app
 Python Launcher.app
 QuickTime Player.app
+Quiver.app
 Reminders.app
-Remove Sophos Anti-Virus.app
 Safari.app
-SeaSky Video Converter.app
-Sequel Pro.app
-SketchBookExpress.app
-SketchMee.app
+Samsung
 Skitch.app
 Skype.app
 Slack.app
-Snapheal.app
-SoapUI-5.0.0.app
-Sophos Anti-Virus.app
+SnippetsLab.app
 Soundflower
-SourceTree.app
 Stache.app
 Stickies.app
-Stomp.app
 Sublime Text 2.app
-Sunrise.app
+Sublime Text 3.app
+Sunrise Calendar.app
+Swipes.app
 SwordSoft Layout.app
 System Preferences.app
 SystemMonitor.app
-TeamViewer.app
+TeX
 TextEdit.app
 TextMate.app
 TextWrangler.app
 Things.app
 Time Machine.app
+TimeTrack.app
 Todoist.app
 Tower.app
-Uppr.app
 Utilities
 VLC.app
-Webcam Settings.app
+VMware Fusion.app
+VirtualBox.app
+Visual Composer - Bootstrap 3.app
 WiFi Explorer.app
-Writer.app
-Xcode.app
-eclipse
+Write.app
+Wunderlist.app
+e-Sword X.app
+ghc-7.10.1.app
 iBooks.app
 iFunia AudioConverter.app
-iGetter.app
+iGetter 2.9.3
 iPhoto.app
 iShowU HD.app
+iStat Mini.app
 iTerm.app
 iTunes.app
-tiptoi Manager.app
 
 *** Applications installed through brew ***
 *******************************************
-ant
-apple-gcc42
-apr
+antlr
 autoconf
 automake
 binutils
-cairo
-cloog-ppl015
+boost
+brew-cask
+c-ares
+cloog018
 cmake
+coreutils
 cscope
 ctags
 curl
-czmq
+d-bus
 dirmngr
+docker
+elasticsearch
+elixir
+emacs
 erlang
 faac
 ffmpeg
 fontconfig
-fontforge
 fop
+freetds
 freetype
-gcc46
+gcc49
 gd
 gdbm
+geoip
 gettext
 git
 git-extras
@@ -178,12 +187,11 @@ gnupg2
 gnuplot
 gnutls
 go
-gobject-introspection
 gpg-agent
-harfbuzz
+graphviz
 icu4c
 imagemagick
-jmeter
+isl011
 jpeg
 lame
 leiningen
@@ -192,11 +200,9 @@ libevent
 libffi
 libgcrypt
 libgpg-error
-libiconv
 libksba
 libmpc08
 libpng
-libsodium
 libtasn1
 libtiff
 libtool
@@ -206,55 +212,50 @@ libvo-aacenc
 libxml2
 libxslt
 libyaml
+lua
 macvim
-maven
-mercurial
 mpfr2
-mysql
-ncurses
+msgpack
+neo4j
 netcat
 nettle
 nmap
 node
 openssl
 ossp-uuid
-p11-kit
 p7zip
-pango
+pandoc
 pcre
-phantomjs
 pinentry
 pixman
 pkg-config
-play
 postgresql
-ppl011
 pth
-pwgen
 python
+qemu
 rabbitmq
 readline
+rebar
+redis
 rtmpdump
 sqlite
 ssh-copy-id
-tcl-tk
 texi2html
+the_silver_searcher
 tmux
-tomcat
 tree
 tsung
 unixodbc
 vcprompt
 vim
 wget
-wrk
+wireshark
 wxmac
 x264
 xvid
 xz
+yaml-cpp
 yasm
-youtube-dl
-zeromq
 zsh
 zsh-completions
 zsh-syntax-highlighting
