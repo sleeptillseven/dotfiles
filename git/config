@@ -26,6 +26,7 @@
     today = !git log --since=midnight --author=\"$(git config user.name)\" --oneline
     undo = reset HEAD~1 --mixed
     diverges = !sh -c 'git rev-list --boundary $1...$2 | grep ^- | cut -c2-'
+	ctags = !~/.git_template/hooks/ctags
 [color]
   diff   = auto
   status = auto
@@ -64,3 +65,8 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[user]
+	name = Christoph Jasinski
+	email = christoph.jasinski@swisscom.com
+[init]
+	templatedir = ~/.git_template

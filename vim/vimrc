@@ -2,7 +2,6 @@
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
 filetype off 
 call pathogen#infect()
-"call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 :let mapleader = "-"
@@ -26,9 +25,12 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 set nocompatible
 set autoread
+set autoindent
 
 set numberwidth=4
-set relativenumber 
+if version >= 74
+  set relativenumber 
+endif
 set number   		        " set line numbers
 set ruler               	" show the cursor position all the time
 set hidden 		          	" edit several file
@@ -51,7 +53,7 @@ set listchars=tab:▸\ ,eol:¬
 
 set expandtab
 highlight ColorColumn ctermbg=red "highlight 81 column
-set colorcolumn=81
+" set colorcolumn=81
 
 "Invisible character colors
 highlight NonText guifg=#4a4a59
@@ -258,10 +260,5 @@ xmap s <Plug>VSurround
 
 
 " Temp file settings
-if has('win32')
-    set backupdir=P:\tmp
-    set directory=P:\tmp
-elseif has("mac") || has("macunix")
-    set backupdir=~/tmp
-    set directory=~/tmp
-endif
+set backupdir=~/tmp
+set directory=~/tmp
