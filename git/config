@@ -41,18 +41,26 @@
     tool = Kaleidoscope
 [core]
     autocrlf = input
-    excludesfile = /Users/chris/.gitignore_global
+	excludesfile = /Users/chris/.gitignore_global
 [difftool "sourcetree"]
-    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path = 
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
-    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-    trustExitCode = true
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 [push]
     default = simple
 [filter "media"]
-    clean = git media clean %f
-    smudge = git media smudge %f
     required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
 [http]
 [https]
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
