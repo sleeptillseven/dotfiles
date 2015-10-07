@@ -13,7 +13,7 @@ alias cls="clear"
 # Processes
 alias tu="top -o cpu"
 alias tm="top -o vsize"
-alias bw="echo updating brew && brew update && echo upgrading brew && brew upgrade"
+alias bw="echo updating brew && brew update && echo upgrading brew && brew upgrade && echo cleaning up && brew cleanup"
 
 # Filesystem
 alias cdd="cd -"

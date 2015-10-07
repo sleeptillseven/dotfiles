@@ -42,5 +42,4 @@ BWHITE='\e[47m'
 # Note that the git branch is given a special color
 PS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n→ "
 
-# RVM specific settings
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+source /Users/chris/.rvm/scripts/rvm
