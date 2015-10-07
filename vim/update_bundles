@@ -37,7 +37,6 @@ git_bundles = [
   "https://github.com/mileszs/apidock.vim.git",
   "https://github.com/vim-scripts/Gist.vim.git",
   "https://github.com/skwp/vim-rspec.git",
-  "https://github.com/tsaleh/vim-matchit.git",
   "https://github.com/tpope/vim-commentary.git",
   "https://github.com/pangloss/vim-javascript.git",
   "https://github.com/postmodern/vim-yard.git",
