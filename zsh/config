@@ -8,7 +8,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 if [ $(uname -s) = 'Darwin' ]; then
   export LANG="en_AU.UTF-8"
   export EDITOR="vim"
-  export PATH=/usr/local/bin:/Users/chris/bin:/Users/chris/bin/dotfiles/bin:/usr/local/sbin:$PATH
+  export PATH=/usr/local/bin:~/bin:~/bin/dotfiles/bin:/usr/local/sbin:$PATH
   export MANPATH="/usr/local/share/man:/usr/X11/man:/usr/share/man"
 else
   export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin#PATH"
