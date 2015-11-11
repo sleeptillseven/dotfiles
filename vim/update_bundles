@@ -53,13 +53,8 @@ git_bundles = [
   "https://github.com/tpope/vim-sleuth.git",
   "https://github.com/fatih/vim-go",
   "https://github.com/tpope/vim-dispatch.git",
-  "https://github.com/rking/ag.vim.git"
-]
-
-vim_org_scripts = [
-  ["RailsCast",	      "2175",	"color"],
-  ["BufferExplorer",  "42",	"plugin"],
-  ["JSLint",	      "2729",	"plugin"]
+  "https://github.com/rking/ag.vim.git",
+  "https://github.com/rizzatti/dash.vim.git"
 ]
 
 require 'fileutils'
@@ -78,16 +73,4 @@ git_bundles.each do |url|
   puts "  Unpacking #{url} into #{dir}"
   `git clone #{url} #{dir}`
   FileUtils.rm_rf(File.join(dir, ".git"))
-end
-
-# download all vim scripts
-unless /cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM
-  vim_org_scripts.each do |name, script_id, script_type|
-    puts "  Downloading #{name}"
-    local_file = File.join(name, script_type, "#{name}.vim")
-    FileUtils.mkdir_p(File.dirname(local_file))
-    File.open(local_file, "w") do |file|
-      file << open("http://www.vim.org/scripts/download_script.php?src_id=#{script_id}").read
-    end
-  end
 end
