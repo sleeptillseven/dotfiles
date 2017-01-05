@@ -8,3 +8,5 @@ fi
 . ~/bin/dotfiles/bash/config
 . ~/bin/dotfiles/bash/aliases
 PATH=$PATH:$HOME/bin/dotfiles/bin # Add RVM to PATH for scripting
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
