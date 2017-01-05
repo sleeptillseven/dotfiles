@@ -1,72 +1,107 @@
 *** Applications installed through App store or manually ***
 ************************************************************
-1Password 5.app
-ALZip.app
+1Password.app
+Adobe Acrobat Reader DC.app
 Airmail 2.app
 Alfred 2.app
 Analog.app
 App Store.app
+App for Trello.app
 Atom.app
-Audacity
+Aurora HDR 2017.app
 Automator.app
 Balsamiq Mockups 3.app
-Balsamiq Mockups.app
 Battery Monitor.app
-Burn.app
+Be Focused.app
+Bear.app
+Bee.app
+Bible Study.app
+Blackmagic Disk Speed Test.app
+Bokeh.app
+Boostnote.app
 Calculator.app
 Calendar.app
+CameraBag Photo.app
 Chess.app
-CleanMyMac 2.app
+Chronicle.app
+CinemaFX Pro.app
+Cisco
+CleanMyDrive 2.app
+CleanWriterPro.app
 CodeBox.app
 ColorStrokes.app
+Composure.app
 Contacts.app
-Convertos.app
 Countdowns.app
 DVD Player.app
 DaisyDisk.app
+Dash.app
 Dashboard.app
+Debit & Credit.app
+Declutter Pro.app
 Dictionary.app
 Diptic.app
+Disk Care.app
 Divvy.app
-Do.app
+Docker
+Docker.app
+Doo.app
 DrCleaner.app
 Dropbox.app
-Encrypto.app
+Duplicates Cleaner.app
+DxO Perspective.app
 Evernote.app
+FX Photo Studio.app
 FaceTime.app
+FileZilla.app
+Final Cut Pro.app
 Firefox.app
+Flip Player.app
 Flux.app
 Focus 2.app
-Focus.app
+Focused.app
 Font Book.app
+Fotor Photo Editor.app
+FreeChat for Facebook Messenger.app
 GNS3.app
-GPG Keychain.app
-Game Center.app
-Gemini.app
+Gemini 2.app
 Gestimer.app
-GitHub.app
+Gitter.app
 Go for Gmail.app
 GoPro
 GoPro Studio.app
+Gogland 1.0 EAP.app
+Google Chrome Canary.app
 Google Chrome.app
 Growl.app
+HD Cleaner.app
 Hemingway.app
-HomeBudgetLite.app
+HipChat.app
 IDLE.app
-IPVanish VPN.app
+IPVanish.app
 Image Capture.app
+IntelliJ IDEA CE.app
+Intensify.app
+JProfiler.app
+JSON Query.app
 Jotta.app
+JustFocus.app
 KAMI.app
 Kaleidoscope.app
-Kaspersky Anti-Virus For Mac.app
-Keynote.app
 Kindle.app
+Kitematic (Beta).app
 Launchpad.app
-MP4Joiner.app
+Leaf.app
+Letter Opener Lite.app
+LiveDesktop.app
+Luminar.app
 MacVim.app
 Mail.app
+MailTab Pro for Gmail.app
 Maps.app
+Marked 2.app
 Marked.app
+McAfee Endpoint Security for Mac.app
 Memory Clean.app
 Messages.app
 Microsoft Excel.app
@@ -74,190 +109,235 @@ Microsoft Lync.app
 Microsoft OneNote.app
 Microsoft Outlook.app
 Microsoft PowerPoint.app
+Microsoft Silverlight
 Microsoft Word.app
 MindNode.app
 Mission Control.app
+Momentum.app
 Money Pro.app
 MoneyControl.app
 Noiseless.app
 Noizio.app
 Notes.app
-Numbers.app
+Octagon.app
 OmniFocus.app
 OmniGraffle 5.app
+OmniGraffle.app
 Pages.app
-PeepOpen.app
 Pencil.app
 Photo Booth.app
 Photos.app
 Pixelmator.app
-Pixie.app
+Pixlr.app
 Planit.app
-Pomodoro Time.app
-Pomodoro.app
-Posterist.app
+Polarr Photo Editor.app
+Postgres.app
+Postico.app
 Preview.app
+Private Eye.app
 Prototypr.app
 Python Launcher.app
 QuickTime Player.app
+Quik.app
 Quiver.app
+RMS sharing.app
 Reminders.app
+RubyMine.app
+SDFormatter.app
+SQLDeveloper.app
 Safari.app
-Samsung
+Self Service.app
+Siri.app
 Skitch.app
+Skype For Business.app
 Skype.app
 Slack.app
-SnippetsLab.app
-Soundflower
+Snapheal.app
+SnippetsLab.appdownload
+SoundCleod.app
+SourceTree.app
+Spark.app
+Sparkle.app
 Stache.app
 Stickies.app
-Sublime Text 2.app
-Sublime Text 3.app
+Stop Motion Studio Pro.app
+StreamCloud.app
+Streaming for SoundCloud.app
+Sublime Text.app
 Sunrise Calendar.app
-Swipes.app
-SwordSoft Layout.app
+Super Hexagon.app
+Swisscom @Citrix Applications
+Swisscom Mac WP
 System Preferences.app
 SystemMonitor.app
-TeX
+TeamViewerQS.app
 TextEdit.app
 TextMate.app
-TextWrangler.app
 Things.app
 Time Machine.app
-TimeTrack.app
-Todoist.app
 Tower.app
+Tyme2.app
+Unity
 Utilities
 VLC.app
 VMware Fusion.app
+Vector 3.app
 VirtualBox.app
 Visual Composer - Bootstrap 3.app
+Visual Studio Code.app
+VisualJSON.app
+WebStorm 2017.1 EAP.app
+WebStorm.app
 WiFi Explorer.app
+WinShortcutter.app
 Write.app
-Wunderlist.app
+Xcode.app
+duet.app
 e-Sword X.app
-ghc-7.10.1.app
+iBooks Author.app
 iBooks.app
 iFunia AudioConverter.app
-iGetter 2.9.3
-iPhoto.app
+iGetter 2.9.4
 iPulse.app
-iShowU HD.app
 iStat Mini.app
 iTerm.app
 iTunes.app
+pgAdmin3.app
+rdm.app
 
 *** Applications installed through brew ***
 *******************************************
-antlr
+akka
+ansible
+apple-gcc42
 autoconf
 automake
-binutils
-boost
-brew-cask
+bfg
 c-ares
-cloog018
+cairo
+cloc
 cmake
+cmu-pocketsphinx
+cmu-sphinxbase
 coreutils
 cscope
 ctags
-curl
 d-bus
-dirmngr
-docker
-elasticsearch
+dbus
+direnv
 elixir
+elm
 emacs
 erlang
 faac
 ffmpeg
+flac
 fontconfig
-fop
 freetds
 freetype
-gcc49
+gcc
 gd
 gdbm
+gdk-pixbuf
 geoip
 gettext
 git
 git-extras
 git-flow
+gitsh
 glib
 gmp
-gmp4
-gnupg2
-gnuplot
 gnutls
 go
-gpg-agent
+gobject-introspection
+graphite2
 graphviz
+harfbuzz
+haskell-stack
+htop
 icu4c
-imagemagick
-isl011
+instantclient-basic
+instantclient-basiclite
+instantclient-sdk
+isl
 jpeg
+kubernetes-cli
 lame
 leiningen
-libassuan
+libcroco
 libevent
 libffi
 libgcrypt
+libgit2
 libgpg-error
+libiconv
 libksba
-libmpc08
+libmpc
+libogg
 libpng
+librsvg
+libsamplerate
+libsndfile
+libssh2
 libtasn1
 libtiff
 libtool
-libusb
-libusb-compat
 libvo-aacenc
+libvorbis
 libxml2
-libxslt
 libyaml
-lua
+llvm
 macvim
-mpfr2
-msgpack
+mpfr
 neo4j
 netcat
 nettle
 nmap
 node
+node6-lts
+node@6
 openssl
-ossp-uuid
-p7zip
-pandoc
+openssl@1.1
+orientdb
+p11-kit
+pango
 pcre
-pinentry
+perl
 pixman
 pkg-config
-postgresql
-pth
+postgresql95
+prometheus
 python
-qemu
 rabbitmq
 readline
 rebar
 redis
-rtmpdump
+riak
+ruby
+rust
+scala
+shared-mime-info
 sqlite
 ssh-copy-id
+terraform
 texi2html
 the_silver_searcher
+tig
 tmux
 tree
-tsung
 unixodbc
+utf8proc
+v8-315
+vagrant-completion
 vcprompt
 vim
+webp
 wget
 wireshark
 wxmac
 x264
 xvid
 xz
-yaml-cpp
 yasm
 zsh
 zsh-completions
