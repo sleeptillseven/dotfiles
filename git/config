@@ -3,7 +3,7 @@
     cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [user]
     name = Christoph Jasinski
-    email = christoph.jasinski@googlemail.com
+    email = christoph.jasinski@swisscom.com
 [credential]
     helper = osxkeychain
 [mergetool]
@@ -42,7 +42,7 @@
     tool = Kaleidoscope
 [core]
     autocrlf = input
-	excludesfile = /Users/chris/.gitignore_global
+	excludesfile = /Users/taajach1/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -51,6 +51,8 @@
 	trustExitCode = true
 [push]
     default = simple
+[commit]
+    verbose = true
 [filter "media"]
     required = true
 	clean = git media clean %f
@@ -65,8 +67,5 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
-[user]
-	name = Christoph Jasinski
-	email = christoph.jasinski@swisscom.com
 [init]
 	templatedir = ~/.git_template
