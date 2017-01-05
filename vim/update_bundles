@@ -55,7 +55,8 @@ git_bundles = [
   "https://github.com/tpope/vim-dispatch.git",
   "https://github.com/rking/ag.vim.git",
   "https://github.com/rizzatti/dash.vim.git",
-  "https://github.com/kien/ctrlp.vim.git"
+  "https://github.com/kien/ctrlp.vim.git",
+  "https://github.com/Shutnik/jshint2.vim.git"
 ]
 
 require 'fileutils'
