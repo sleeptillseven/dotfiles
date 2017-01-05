@@ -8,13 +8,16 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 if [ $(uname -s) = 'Darwin' ]; then
   export LANG="en_AU.UTF-8"
   export EDITOR="vim"
-  export PATH=/usr/local/bin:~/bin:~/bin/dotfiles/bin:/usr/local/sbin:$PATH
+  export PATH=/usr/local/bin:~/bin:~/bin/dotfiles/bin:~/.go/bin:/usr/local/sbin:~/Projects/Go/bin:$PATH
   export MANPATH="/usr/local/share/man:/usr/X11/man:/usr/share/man"
 else
   export PATH="$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin#PATH"
 fi
 
+export GOPATH=~/Projects/Go
 export PATH=/Library/RubyMotion/bin/motion:$PATH
+# export JAVA_HOME=JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
@@ -47,3 +50,21 @@ function self-insert-backslash() { LBUFFER+='\'; zle .self-insert }
 zle -N self-insert-backslash
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+proxyon() {
+  export http_proxy="http://clientproxy.corproot.net:8079"
+  export https_proxy="http://clientproxy.corproot.net:8079"
+  export ftp_proxy="http://clientproxy.corproot.net:8079"
+  echo "proxy set"
+}
+
+proxyoff() {
+  unset http_proxy
+  unset https_proxy
+  unset ftp_proxy
+  echo "proxy unset"
+}
+
+eval "$(direnv hook zsh)"
